@@ -2,6 +2,8 @@
   box-sizing: border-box;
   word-break: break-all;
   overflow-wrap: break-word;
+  font-family: sans-serif;
+  font-weight: bold
 }
 
 img {
@@ -11,12 +13,21 @@ img {
   border-color: #CACACA;
 }
 
+a {
+  color: #333333;
+  text-decoration-line: none;
+}
+span {
+  color: #777777;
+}
+
 p {
   position: absolute;
   display: block;
 }
-ul {
 
+li {
+  list-style: none;
 }
 
 .octodex {
@@ -26,15 +37,16 @@ ul {
 .octocat {
   display: inline-block;
   width: 30%;
+  margin: 8px;
 }
 
 .image-number {
-  justify-content: left;
+  float: left;
+  color: #CACACA
 }
 
 .image-caption {
-  display: inline;
-  justify-content: right;
+  float: right;
 }
 
 .authors {
@@ -43,5 +55,6 @@ ul {
 }
 
 .authors img {
-  display: inline-block;
+  border: none;
+  width: 20px
 }
